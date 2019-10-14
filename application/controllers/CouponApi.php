@@ -11,7 +11,7 @@ class CouponApi extends CI_Controller {
 
 	public function index()
 	{
-		
+		redirect('CouponApi/coupon');
 	}
 
 	public function coupon()
